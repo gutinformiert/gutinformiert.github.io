@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTG-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="stylepage4.css">
+<title>Schritt1</title>
+</head>
+<body>
+<div id="i52r" class="gpd-text">I-311 Computergrafik II</div>
+<a href="/page-3.html" id="i1ma" class="gpd-button2">zur&uumlck zur Modulliste&nbsp;</a>
+
+<div id="demo-2">11:25</div>
+
+<div class="message-list" id="i9qq1">
+<h4>Thomas Kienle: gibt es noch weitere Praktukumsaufgaben in diesem Semester?</h4>
+
+</div>
+<input class="message-input" type="text" id="i9qq" class="form-control" /><p></p>
+<button onclick="myFunction()" class="addMessage" id="ifxu">Senden</button>
+<p id="demo"></p>
+<script>
+function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+function myFunction() {
+  var d = new Date();
+  var x = document.getElementById("demo");
+  var h = addZero(d.getHours());
+  var m = addZero(d.getMinutes());
+  x.innerHTML = h + ":" + m;
+}
+</script>
+
+<main>
+<article>
+<p></p>
+</article>
+</main>
+</div>
+</body>
+<script src="message_2.js"></script>
+</html>
+

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.addMessage{
+  display:inline-block;
+  padding:15px 30px;
+  text-decoration:none;
+  text-align:center;
+  opacity:1;
+  transition:color 0.25s, opacity 0.25s;
+  border-radius:100px;
+  background-color:#dc659b;
+  color:white;
+}
+
+.gpd-button2{
+
+  padding:15px 30px;
+  text-decoration:none;
+  text-align:center;
+  opacity:1;
+  transition:color 0.25s, opacity 0.25s;
+  border-radius:100px;
+  background-color:#dc659b;
+  color:white;
+}
+
+
+.message-thomas{
+color:#8B4513;
+margin:0 0 20px 30px;
+
+}
+
+
+
+.gpd-button2:hover{
+  opacity:0.85;
+}
+.gpd-button2:active{
+  opacity:0.95;
+}
+@media (max-width: 375px){
+  body{
+    background-image:url(https://cdn.grapedrop.com/u0ffe45486f66471580d5a3ad7c3979dc/90f2e5056da14e9a93e6934dad95eb8d_gutinformiert_13.png);
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:cover;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+  }
+  #i52r{
+    border:1px solid rgb(0, 0, 0);
+    border-radius:25px 25px 25px 25px;
+    margin:20px 25px 0 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-size:12px;
+    padding:6px 18px 6px 18px;
+  }
+  
+  #i1ma{
+    display:inline-block;
+    margin:5px 20px 200px 205px;
+    padding:7px 12px 7px 18px;
+    background-color:#ca1f7b;
+    text-align:center;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#ffffff;
+  }
+  #i9qq{
+    margin:10px 0 0 20px;
+    border:1px solid #000000;
+    border-radius:25px 25px 25px 25px;
+    width:330px;
+    height:70px;
+  }
+  
+   #i9qq1{
+    margin:-70px 20px 20px 30px;
+  }
+  
+  #demo{
+	  margin:-158px 20px 20px 315px;
+	  color:#ca1f7b;
+	  font-family:Arial, Helvetica, sans-serif;
+	  font-size:11px;
+  }
+  
+  #demo-2{
+	  margin:10px 20px 20px 315px;
+	  color:#ca1f7b;
+	  font-family:Arial, Helvetica, sans-serif;
+	  font-size:11px;
+  }
+  
+  #ifxu{
+    background-color:#ca1f7b;
+    margin:5px 0 0 230px;
+    color:#ffffff;
+    border:0 solid #ffffff;
+    padding:7px 30px 7px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+  }
+}
