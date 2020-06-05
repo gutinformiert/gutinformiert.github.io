@@ -9,7 +9,10 @@ submitBtn.addEventListener('click', function(e) {
   let messages = []
   if (name.value === '' || name.value == null) {
     messages.push('Name is required')
+	
   }
+ 
+
   
   
    if (name.value.length <= 16) {
